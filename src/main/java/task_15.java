@@ -3,7 +3,7 @@ import java.io.*;
 public class task_15 {
     public static void main(String[] args) {
     String S;
-    try (BufferedReader t = new BufferedReader(new FileReader("C:\\Users\\user\\Documents\\text.txt"))) {
+    try (BufferedReader t = new BufferedReader(new FileReader("text.txt"))) {
      while ((S=t.readLine()) != null) {
          System.out.println(S);
      }
