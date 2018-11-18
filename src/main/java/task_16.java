@@ -7,8 +7,7 @@ class task_16 {
         BufferedReader r = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Введите текст, по окончание ввода текста обозначте строкой 'stop'");
 
-        try (FileWriter w = new FileWriter("text.txt"))
-        {
+        try (FileWriter w = new FileWriter("text.txt")) {
             do {
                 System.out.print(": ");
                 s = r.readLine();
