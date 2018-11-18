@@ -14,8 +14,7 @@ class task_16 {
                 if (s.trim().compareTo("stop") == 0)
                     break;
 
-                s = s + "\r\n";
-                w.write(s);
+                w.write(s + "\r\n");
             }
             while (s.trim().compareTo("stop") != 0);
         }

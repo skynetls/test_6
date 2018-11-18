@@ -20,8 +20,7 @@ public class task_17 {
                 System.out.print(i + ": ");
                 s = rr.readLine();
                 ++i;
-                s = s + "\r\n";
-                w.write(s);
+                w.write(s + "\r\n");
             }
         } catch (IOException exc) {
             System.out.println("Ошибка ввода/вывода: " + exc);
